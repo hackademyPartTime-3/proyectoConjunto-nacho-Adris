@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.fondo{
+    background-color: black;
+}
+
+.bg__navbar{
+    background-color: #f58200;
+    background-image: linear-gradient( #f58200, white);
+}
+
+.bg__imagen{
+    background-image:url(./img/dragonballOrange.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
+
+
