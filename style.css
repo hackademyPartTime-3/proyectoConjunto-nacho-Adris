@@ -22,5 +22,14 @@ h1, h2, h3, h4, h5, h6, a{
     border-bottom: white solid 1px;
 }
 
+#login{
+    background-color: rgb(199, 199, 75);
+    position: fixed;
+    opacity: 0;
+}
+
+.login_action{
+    opacity: 1 !important;
+}
 
 

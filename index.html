@@ -26,20 +26,45 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse text-center justify-content-md-end mx-5" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse text-center justify-content-md-end mx-5"
+                    id="navbarSupportedContent">
                     <a class="nav-link active fs-3 mx-3" aria-current="page" href="#">PERSONAJES</a>
-                    <a class="nav-link active fs-3 mx-3" aria-current="page" href="#">LOGIN</a>
-                    <a class="nav-link active fs-3 mx-3" aria-current="page" href="#">REGISTER</a>
+                    <a id="desplegLogin" class="nav-link active fs-3 mx-3" aria-current="page" href="#">LOGIN</a>
+                    <a id="desplegRegistro" class="nav-link active fs-3 mx-3" aria-current="page" href="#">REGISTER</a>
                 </div>
             </div>
         </nav>
     </header>
 
     <main class="my-5">
-        <div class="container-fluid ">
+        <div class="container-fluid bg__imagen">
             <div class="row">
-                <div class="col-12 bg__imagen">
-
+                <div class="col-12  d-flex justify-content-md-end">
+                    <div id="login" class="col-4 p-3">
+                        <div class="d-flex justify-content-md-end">
+                            <i id="cerrarLogin" class="bi bi-x-square-fill h5"></i>
+                        </div>
+                        <form>
+                            <div class="mb-3 pt-2">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text text-black">We'll never share your email with
+                                    anyone else.</div>
+                            </div>
+                            <div class="mb-3 pt-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input bg-black" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="submit" class="btn btn-primary bg-black">Submit</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -49,14 +74,16 @@
         <div class="container-fluid">
             <div class="row d-flex">
                 <div class="d-none d-md-flex col-md-3 d-flex mb-5">
-                    <img src="./img/kakarotOrange.jpg" alt="" class="img-fluid w-100 h-75 align-itens-center border-top border-end border-start rounded-top">
+                    <img src="./img/kakarotOrange.jpg" alt=""
+                        class="img-fluid w-100 h-75 align-itens-center border-top border-end border-start rounded-top">
                 </div>
                 <div class="col-12 col-md-9 text-white my-5">
-                    <h1 class="text-center " >
+                    <h1 class="text-center ">
                         Bienvenidos a nuestra webfan de Dragon Ball, un anime creado por Akira Toriyama en Noviembre de
                         1984.
                     </h1>
-                    <p class="text-center align-items- p-5">Dragon Ball trata básicamente sobre la lucha entre el bien y el mal. Al principio, algunos
+                    <p class="text-center align-items- p-5">Dragon Ball trata básicamente sobre la lucha entre el bien y
+                        el mal. Al principio, algunos
                         de los personajes quieren reunir las siete bolas del dragón para pedir algún deseo personal,
                         pero se enteran de que dichos objetos también son buscados por otros con fines malignos, lo cual
                         les lleva a enfrentarse a ellos en más de una ocasión. Posteriormente aparecen adversarios más
@@ -128,8 +155,8 @@
 
     <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
