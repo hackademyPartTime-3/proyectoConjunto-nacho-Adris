@@ -20,7 +20,7 @@
     <header class="top-0 position-sticky">
         <nav class="navbar navbar-expand-lg bg__navbar mb-5">
             <div class="container-fluid d-flex ms-3">
-                <a href=""><img src="./img/logo.png" alt="" class="img-fluid" width="60px"></a>
+                <a href="./index.html"><img src="./img/logo.png" alt="" class="img-fluid" width="60px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
                 <div class="col-12  d-flex justify-content-md-end">
                     <div id="login" class="col-4 p-3">
                         <div class="d-flex justify-content-md-end">
-                            <i id="cerrarLogin" class="bi bi-x-square-fill h5"></i>
+                            <i id="cerrarLogin" class="bi bi-x-square-fill text-danger h5"></i>
                         </div>
                         <form>
                             <div class="mb-3 pt-2">
@@ -61,6 +61,46 @@
                             </div>
                             <div class="d-flex justify-content-center">
                                 <button type="submit" class="btn btn-outline-dark bg-dark text-white">Entrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12  d-flex justify-content-md-end">
+                    <div id="registro" class="col-4 p-3">
+                        <div class="d-flex justify-content-md-end">
+                            <i id="cerrarRegistro" class="bi bi-x-square-fill text-danger h5"></i>
+                        </div>
+                        <form>
+                            <div class="mb-3 pt-2">
+                                    <div class="mb-3">
+                                        <label for="disabledTextInput" class="form-label">NOMBRE COMPLETO</label>
+                                        <input type="text" class="form-control" placeholder="Nombre Completo">
+                                      </div>   
+                            </div>
+                            <div class="mb-3 pt-2">
+                                    <div class="mb-3">
+                                        <label for="disabledTextInput" class="form-label">USUARIO</label>
+                                        <input type="text" class="form-control" placeholder="Usuario">
+                                      </div>        
+                            </div>
+                            <div class="mb-3 pt-2">
+                                    <div class="mb-3">
+                                        <label for="disabledTextInput" class="form-label">CORREO</label>
+                                        <input type="text" class="form-control" placeholder="Correo">
+                                      </div>        
+                            </div>
+                            <div class="mb-3 pt-2">
+                                    <div class="mb-3">
+                                        <label for="disabledTextInput" class="form-label">PASSWORD</label>
+                                        <input type="text" class="form-control" placeholder="Password">
+                                    </div>        
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="submit" class="btn btn-outline-dark bg-dark text-white">CREAR</button>
                             </div>
                         </form>
                     </div>

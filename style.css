@@ -33,6 +33,17 @@ h1, h2, h3, h4, h5, h6, a{
     opacity: 1 !important;
 }
 
+#registro{
+    background-color: #f58200;
+    background-image: linear-gradient(white, #f58200);
+    position: fixed;
+    opacity: 0;
+}
+
+.registro_action{
+    opacity: 1 !important;
+}
+
 .personajes{
     color: #4262FB;
 }
@@ -40,8 +51,4 @@ h1, h2, h3, h4, h5, h6, a{
 .bg__card{
     background-color: #f58200;
     background-image: linear-gradient( #f58200, white);
-}
-
-.index{
-    z-index: 0;
 }

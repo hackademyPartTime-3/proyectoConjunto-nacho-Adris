@@ -1,4 +1,4 @@
-/* let desplegLogin = document.querySelector('#desplegLogin');
+let desplegLogin = document.querySelector('#desplegLogin');
 let login = document.querySelector('#login');
 
 desplegLogin.addEventListener('click', (e) => {
@@ -11,9 +11,22 @@ let cerrarLogin = document.querySelector('#cerrarLogin');
 cerrarLogin.addEventListener('click', (e) => {
     e.preventDefault();
     login.classList.remove('login_action');
+});
+
+/* let desplegRegistro = document.querySelector('#desplegRegistro');
+let registro = document.querySelector('#registro');
+
+desplegRegistro.addEventListener('click', (e) => {
+    e.preventDefault();
+    registro.classList.add('registro_action');
+});
+
+let cerrarRegistro = document.querySelector('#cerrarRegistro');
+
+cerrarRegistro.addEventListener('click', (e) => {
+    e.preventDefault();
+    registro.classList.remove('registro_action');
 }); */
-
-
 
 fetch("https://dragon-ball-super-api.herokuapp.com/api/characters")
 .then(response => response.json())
