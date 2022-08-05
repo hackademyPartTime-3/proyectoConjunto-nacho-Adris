@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6, a{
 .bg__navbar{
     background-color: #f58200;
     background-image: linear-gradient( #f58200, white);
-    z-index: 1;
+    z-index: 99;
 }
 
 .bg__imagen{
@@ -23,7 +23,8 @@ h1, h2, h3, h4, h5, h6, a{
 }
 
 #login{
-    background-color: rgb(199, 199, 75);
+    background-color: #f58200;
+    background-image: linear-gradient(white, #f58200);
     position: fixed;
     opacity: 0;
 }
@@ -32,4 +33,15 @@ h1, h2, h3, h4, h5, h6, a{
     opacity: 1 !important;
 }
 
+.personajes{
+    color: #4262FB;
+}
 
+.bg__card{
+    background-color: #f58200;
+    background-image: linear-gradient( #f58200, white);
+}
+
+.index{
+    z-index: 0;
+}
